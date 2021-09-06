@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+    <title>Javascript 1</title>
+    <script>
+        function internal1() {
+          document.getElementById("internal").innerHTML = "College : KEC";
+        }
+        </script>
+</head>
+<body>
+<b id="inline">Using inline javascript</b>
+<button type="button" onclick="inline1()">Click here</button> <br> <br>
+<b id="internal">Using internal javascript</b>
+<button type="button" onclick="internal1()">Click here</button> <br> <br>
+<b id="external">Using external javascript</b>
+<button type="button" onclick="external1()">Click here</button> <br> <br>
+<script src="external.js"></script>
+    <script>
+        function inline1() {
+        document.getElementById("inline").innerHTML = "Name : Ram";
+         }
+          </script>
+        
+</body>
+</html>
